@@ -1,0 +1,23 @@
+.hyp-nav{
+    font-family: $fuente_navegador;
+    font-size: $fuente_nav_size;
+    &:hover:not(.active):not(.navbar-brand){
+        text-shadow: 0.8px 0.8px 0.8px;
+    }
+}
+
+.bgNavegador{
+    background-color: $bg_nav;
+}
+
+.fuenteLogo{
+    font-size: $fuente_logo_size;
+    font-family: $fuente_logo;
+    font-style: $fuente_logo_style;
+}
+
+.fuenteLogoInicio{
+    animation-name: aparecer;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}

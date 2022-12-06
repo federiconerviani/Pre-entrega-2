@@ -1,94 +1,74 @@
-.fuenteLogo{
-    font-size: 1.5rem;
-    font-family: 'Ms Madi';
-    font-style: italic;
-}
-.fuenteLogoInicio{
-    animation-name: aparecer;
-    animation-duration: 5s;
-    animation-iteration-count: 1;
-}
+.fuenteLogo {
+  font-size: 1.5rem;
+  font-family: 'Ms Madi';
+  font-style: italic; }
 
-.bgNavegador{
-    background-color: rgba(148, 18, 6, 0.962);
-}
+.fuenteLogoInicio {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  animation-iteration-count: 1; }
 
-.bgBody{
-    background-color: rgba(148, 18, 6, 0.855);
-}
+.bgNavegador {
+  background-color: rgba(148, 18, 6, 0.962); }
 
-h1{
-    margin-left: 1rem;
-    font-family: franklin gothic medium;
-    font-style: italic;
-}
+.bgBody {
+  background-color: rgba(148, 18, 6, 0.855); }
 
-.h1Inicio{
-    animation-name: aparecer;
-    animation-duration: 5s;
-    animation-iteration-count: 1;
-}
+h1 {
+  margin-left: 1rem;
+  font-family: franklin gothic medium;
+  font-style: italic; }
 
-.imgInicio{
-    animation-name: aparecer;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-}
+.h1Inicio {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  animation-iteration-count: 1; }
+
+.imgInicio {
+  animation-name: aparecer;
+  animation-duration: 3s;
+  animation-iteration-count: 1; }
 
 .textoInicio {
-    animation-name: aparecer;
-    animation-duration: 5s;
-    animation-iteration-count: 1;
-}
+  animation-name: aparecer;
+  animation-duration: 5s;
+  animation-iteration-count: 1; }
 
-a{
-    font-family: franklin gothic medium;
-    font-size: 1.25rem;
-}
+a {
+  font-family: franklin gothic medium;
+  font-size: 1.25rem; }
 
-a:hover:not(.active):not(.navbar-brand){
-    text-shadow: 0.8px 0.8px 0.8px;
-}
+a:hover:not(.active):not(.navbar-brand) {
+  text-shadow: 0.8px 0.8px 0.8px; }
 
 .tarjetas {
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-}
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center; }
 
 footer {
-    color: rgba(250, 235, 215, 0.323);
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    width: 50%;
-}
+  color: rgba(250, 235, 215, 0.323);
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  width: 50%; }
 
 .preguntas {
-    width: 80%;
-}
+  width: 80%; }
 
 @keyframes aparecer {
-    0% {
-        opacity: 0;
-        transform: scale(20);
-    }
-    100% {
-        opacity: 1;
-    }
-}
+  0% {
+    opacity: 0;
+    transform: scale(20); }
+  100% {
+    opacity: 1; } }
 
 @media (max-width: 576px) {
-    .just-der-sm {
-        text-align: right;
-    }
-    .textoInicio {
-        max-width: 90%;
-    }
-    .imgInicio {
-        max-width: 90%;
-    }
-    .ftr-sz-sm {
-        font-size: x-small;
-    }
-}
+  .just-der-sm {
+    text-align: right; }
+  .textoInicio {
+    max-width: 90%; }
+  .imgInicio {
+    max-width: 90%; }
+  .ftr-sz-sm {
+    font-size: x-small; } }
