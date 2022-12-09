@@ -10,7 +10,7 @@
         justify-content: center;
         margin: 4px;
         text-align: center;
-        border: 1px solid transparent;
+        border: $borde_solid_transp;
         vertical-align: middle;
         font-weight: 500;
         color: white;
@@ -19,13 +19,13 @@
 
 .contacto {
     .form_contacto {
-        background-color: rgba(0, 0, 0, 0.44);
+        background-color: $bg_form;
         border-radius: 0.5rem;
         .correo {
             padding-top: 0.8rem;
         }
         .form-label {
-            font-family: 'Courier New', Courier, monospace;
+            font-family: $fuente_form;
             color: black;
             font-weight: 1000;
         }

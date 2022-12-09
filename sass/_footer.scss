@@ -1,10 +1,14 @@
-footer {
-    color: $fuente_footer_color;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    width: 50%;
-    padding-bottom: 0;
-    background-color: aqua;
-}
+.body {
+    height: 100vh;
+    .footer {
+        color: $fuente_footer_color;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        padding-bottom: 0;
+        width: 100%;
+    }
+    }
+
+
 

@@ -15,23 +15,28 @@
 
 .bgBody {
   background-color: rgba(148, 18, 6, 0.189); }
+  .bgBody h1 {
+    margin-left: 1rem;
+    font-family: franklin gothic medium;
+    font-style: italic; }
 
-h1 {
-  margin-left: 1rem;
-  font-family: franklin gothic medium;
-  font-style: italic; }
+.accordion-item {
+  background-color: rgba(148, 18, 6, 0.189); }
+  .accordion-item .accordion-button:not(.collapsed) {
+    color: black;
+    font-weight: 500;
+    background-color: rgba(148, 18, 6, 0.374);
+    box-shadow: 1px 1px 3px rgba(148, 18, 6, 0.374); }
 
-.preguntas {
-  width: 80%; }
-
-footer {
-  color: rgba(0, 0, 0, 0.384);
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-  width: 50%;
-  padding-bottom: 0;
-  background-color: aqua; }
+.body {
+  height: 100vh; }
+  .body .footer {
+    color: rgba(0, 0, 0, 0.384);
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding-bottom: 0;
+    width: 100%; }
 
 @keyframes aparecer {
   0% {
@@ -97,6 +102,6 @@ footer {
   .contacto .form_contacto .correo {
     padding-top: 0.8rem; }
   .contacto .form_contacto .form-label {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     color: black;
     font-weight: 1000; }
