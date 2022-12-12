@@ -1,9 +1,9 @@
-
 .bgBody{
-    background-color: $bg_body;
-    h1{
-        margin-left: $fuente_h1_size;
-        font-family: $fuente_h1;
-        font-style: $fuente_h1_style;
+    background-color: map-get($map: $fondos, $key: body);
+    .h1 {
+        @include titulos;
+    }
+    .contenido {
+     padding-top: map-get($map: $padding, $key: cont_main);   
     }
 }

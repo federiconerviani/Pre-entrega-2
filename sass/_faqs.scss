@@ -1,9 +1,9 @@
-.accordion-item {
-    background-color: $bg_body;
-    .accordion-button:not(.collapsed) {
-        color: black;
-        font-weight: 500;
-        background-color: $bg_acord;
-        box-shadow: 1px 1px 3px $bg_acord;
+    .accordion-item {
+        background-color: $bg_body;
+        .accordion-button:not(.collapsed) {
+            color: black;
+            font-weight: 500;
+            background-color: $bg_acord;
+            box-shadow: 1px 1px 3px $bg_acord;
+        }
     }
-}

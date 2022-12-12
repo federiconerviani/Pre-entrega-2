@@ -1,3 +1,5 @@
+/*'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif*/
+/*MAPAS*/
 .h1Inicio {
   animation-name: aparecer;
   animation-duration: 5s;
@@ -15,10 +17,14 @@
 
 .bgBody {
   background-color: rgba(148, 18, 6, 0.189); }
-  .bgBody h1 {
-    margin-left: 1rem;
-    font-family: franklin gothic medium;
-    font-style: italic; }
+  .bgBody .h1 {
+    font-size: 3rem;
+    font-family: "Ms Madi";
+    font-style: italic;
+    font-weight: 600;
+    margin-left: 2rem; }
+  .bgBody .contenido {
+    padding-top: 2rem; }
 
 .accordion-item {
   background-color: rgba(148, 18, 6, 0.189); }
@@ -36,7 +42,8 @@
     margin-left: auto;
     text-align: center;
     padding-bottom: 0;
-    width: 100%; }
+    width: 100%;
+    padding-top: 4rem; }
 
 @keyframes aparecer {
   0% {
@@ -53,10 +60,20 @@
   .imgInicio {
     max-width: 90%; }
   .ftr-sz-sm {
-    font-size: x-small; } }
+    font-size: x-small; }
+  /*
+    .body {
+        min-height: 100vh;
+    }
+    .header {
+        min-height: 30vh;
+    }
+    .main {
+        min-height: 70vh;
+    }*/ }
 
 .hyp-nav {
-  font-family: franklin gothic medium;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 1.25rem; }
   .hyp-nav:hover:not(.active):not(.navbar-brand) {
     text-shadow: 0.8px 0.8px 0.8px; }
@@ -105,3 +122,6 @@
     font-family: "Courier New", Courier, monospace;
     color: black;
     font-weight: 1000; }
+
+.fondo_form {
+  background-color: rgba(148, 18, 6, 0.227); }
