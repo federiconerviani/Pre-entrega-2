@@ -14,9 +14,11 @@
 
 
   </head>
-  <body class="bgBody">
+
+
+  <body class="bgBody body">
     
-    <header>
+    <header class="header">
       <!--BARRA DE NAVEGACIÓN-->
       <nav class="navbar navbar-expand-lg navbar-light bgNavegador">
         <div class="container-fluid">
@@ -33,36 +35,41 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav justify-content-around w-100">
-            <a class="nav-link" href="../index.html">Inicio</a>
-            <a class="nav-link" href="./nosotros.html">Nosotros</a>
-            <a class="nav-link" href="./info.html">Info</a>
-            <a class="nav-link" href="./productos.html">Productos</a>
-            <a class="nav-link" href="./faqs.html">FAQs</a>
-            <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+            <a class="nav-link hyp-nav" href="../index.html">Inicio</a>
+            <a class="nav-link hyp-nav" href="./nosotros.html">Nosotros</a>
+            <a class="nav-link hyp-nav" href="./info.html">Info</a>
+            <a class="nav-link hyp-nav" href="./productos.html">Productos</a>
+            <a class="nav-link hyp-nav" href="./faqs.html">FAQs</a>
+            <a class="nav-link active hyp-nav" aria-current="page" href="#">Contacto</a>
           </div>
         </div>
       </div>
     </nav>
       </header>
+
+      <!--MAIN-->
       <main>
-        <h1>Contacto</h1>
-        <div class="container mt-5">
-          <div class="row align-items-center justify-content-center">
+        <h1 class="h1">Contacto</h1>
+        <div class="container mt-5 contenido">
+          <div class="row align-items-center justify-content-center contacto">
             <div class="col-sm-12 col-md-6 d-flex justify-content-center p-1">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.6861403079865!2d-58.4153799854422!3d-34.58680736410911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca81def444ed%3A0xe3cce9e5274ca8bd!2sAv.%20Sta.%20Fe%203435%2C%20C1425BGJ%20CABA!5e0!3m2!1ses-419!2sar!4v1669670248429!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div class="col-sm-12 col-md-4 pl-4 border bg-light">
-              <div class="mb-3">
+            <div class="col-sm-12 col-md-4 pl-4 border form_contacto">
+              <div class="mb-3 correo">
                 <label for="exampleFormControlInput1" class="form-label">Dirección de correo electrónico</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+                <input required type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
               </div>
               <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Tu nombre">
+                <input required type="email" class="form-control" id="exampleFormControlInput1" placeholder="Tu nombre">
               </div>
               <div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label">Escribí tu consulta acá</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <div class="boton_form">
+                <div type="button" class="enviar">Enviar</div>
               </div>
             </div>
             <div class="col m-5">
@@ -76,8 +83,8 @@
         </div>
         
       </main>
-        <footer>
-          <div class="ftr-sz-sm">
+        <footer class="footer">
+          <div>
             <p>Todos los derechos reservados</p>
           </div>
         </footer>

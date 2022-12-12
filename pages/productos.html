@@ -13,57 +13,60 @@
     <link rel="stylesheet" href="../css/estilos.css">
     <title>Valhalla Elixirs</title>
   </head>
-  <body class="bgBody">
-    <header>
 
+  <body class="bgBody body">
+
+      
+      <header class="header">
       <!--BARRA DE NAVEGACIÓN-->
       <nav class="navbar navbar-expand-lg navbar-light bgNavegador">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html">
-          <div class="d-flex justify-content-center align-items-center">
-            <img src="../assests/imagenes/logo1.png" alt="Logo Valhalla" class="w-25 h-25">
-            <div class="d-flex flex-column m-0 justify-content-center align-items-center">
-              <p class="m-2 fuenteLogo">Valhalla Elixirs</p>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <div class="d-flex justify-content-center align-items-center">
+              <img src="../assests/imagenes/logo1.png" alt="Logo Valhalla" class="w-25 h-25">
+              <div class="d-flex flex-column m-0 justify-content-center align-items-center">
+                <p class="m-2 fuenteLogo">Valhalla Elixirs</p>
+              </div>
+            </div>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav justify-content-around w-100">
+              <a class="nav-link hyp-nav" href="../index.html">Inicio</a>
+              <a class="nav-link hyp-nav" href="./nosotros.html">Nosotros</a>
+              <a class="nav-link hyp-nav" href="./info.html">Info</a>
+              <a class="nav-link active hyp-nav" aria-current="page" href="#">Productos</a>
+              <a class="nav-link hyp-nav" href="./faqs.html">FAQs</a>
+              <a class="nav-link hyp-nav" href="./contacto.html">Contacto</a>
             </div>
           </div>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav justify-content-around w-100">
-            <a class="nav-link" href="../index.html">Inicio</a>
-            <a class="nav-link" href="./nosotros.html">Nosotros</a>
-            <a class="nav-link" href="./info.html">Info</a>
-            <a class="nav-link active" aria-current="page" href="#">Productos</a>
-            <a class="nav-link" href="./faqs.html">FAQs</a>
-            <a class="nav-link" href="./contacto.html">Contacto</a>
-          </div>
-        </div>
       </div>
         </nav>
       </header>
+
       <!--MAIN-->
       <main>
-        <h1>Nuestros Productos</h1>
-        <div class="container">
+        <h1 class="h1">Nuestros Productos</h1>
+        <div class="container contenido">
           <div class="row justify-content-center">
-            <div class="col-sm-12 col-md-12 col-lg-10 p-1 bg-light bg-opacity-25">
+            <div class="col-sm-12 col-md-12 col-lg-10 p-1 fondo_form">
               <h3>Nootrópicos</h3>
             </div>
             <div class="col-sm-12 col-md-4 col-lg-4 p-1 bg-light bg-opacity-25 just-der-sm">
               <h5>Melena de león</h5>
-                <img class="w-75" src="../assests/imagenes/melena-leon-768x512.webp" alt="">
+              <img class="w-75" src="../assests/imagenes/melena-leon-768x512.webp" alt="Melena de León">
             </div>
             <div class="col-sm-12 col-md-8 col-lg-6 pt-4 bg-light bg-opacity-25">
               <p>La melena de león es el mejor aliado de nuestro cerebro. Con este hongo tendremos mayor capacidad
-                 de foco, mayor lucidez, menor niebla mental y cansancio. Es recomendable para personas de la tercera 
-                 edad, ya que ayuda a prevenir o reducir los sintomas de Alzheimer, Parkinson y demencia.
+                de foco, mayor lucidez, menor niebla mental y cansancio. Es recomendable para personas de la tercera 
+                edad, ya que ayuda a prevenir o reducir los sintomas de Alzheimer, Parkinson y demencia.
               </p>
             </div>
           </div>
           <div class="row justify-content-center">
-            <div class="col-sm-12 col-md-12 col-lg-10 p-1 bg-light bg-opacity-50">
+            <div class="col-sm-12 col-md-12 col-lg-10 p-1 fondo_form">
               <h3>Sistema inmune</h3>
             </div>
             <div class="col-sm-12 col-md-4 col-lg-4 p-1 bg-light bg-opacity-50 just-der-sm">
@@ -78,13 +81,14 @@
           </div>
 
         </div>
-        
       </main>
-        <footer>
-      <div class="ftr-sz-sm">
-        <p>Todos los derechos reservados</p>
-      </div>
-  </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  </body>
-  </html>
+      
+      <!--Footer-->
+      <footer class="footer">
+        <div>
+          <p>Todos los derechos reservados</p>
+        </div>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+    </html>
