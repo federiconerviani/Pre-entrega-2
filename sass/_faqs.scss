@@ -3,7 +3,7 @@
         .accordion-button:not(.collapsed) {
             color: black;
             font-weight: 500;
-            background-color: $bg_acord;
+            background-color: map-get($map: $fondos, $key: acord);
             box-shadow: 1px 1px 3px $bg_acord;
         }
     }

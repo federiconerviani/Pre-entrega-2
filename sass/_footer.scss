@@ -1,10 +1,8 @@
 .body {
     height: 100vh;
     .footer {
+        @include centrar;
         color: $fuente_footer_color;
-        margin-right: auto;
-        margin-left: auto;
-        text-align: center;
         padding-bottom: 0;
         width: 100%;
         padding-top: 4rem;

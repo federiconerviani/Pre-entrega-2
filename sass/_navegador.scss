@@ -1,13 +1,13 @@
-.hyp-nav{
-    font-family: $fuente_navegador;
-    font-size: $fuente_nav_size;
-    &:hover:not(.active):not(.navbar-brand){
-        text-shadow: 0.8px 0.8px 0.8px;
-    }
-}
 
 .bgNavegador{
     background-color: $bg_nav;
+    .hyp-nav{
+        font-family: $fuente_navegador;
+        font-size: $fuente_nav_size;
+        &:hover:not(.active):not(.navbar-brand){
+            text-shadow: 0.8px 0.8px 0.8px;
+        }
+    }
 }
 
 .fuenteLogo{
