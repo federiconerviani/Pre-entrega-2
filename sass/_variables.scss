@@ -8,9 +8,10 @@ $fuente_h1:  'Ms Madi'; /*'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-
 $fuente_h1_size: 3rem;
 $fuente_h1_style: italic;
 $fuente_footer_color: rgba(0, 0, 0, 0.384);
-$bg_nav: rgba(148, 18, 6, 0.962);
+$bg_nav: rgb(172, 46, 34);
 $bg_acord: rgba(148, 18, 6, 0.374);
-$bg_prod: rgba(148, 18, 6, 0.227);
+$bg_encab: rgba(169, 46, 35, 0.751);
+$bg_cuerp: rgba(235, 150, 142, 0.662);
 $bg_body: rgba(148, 18, 6, 0.189);
 $bg_form: rgba(0, 0, 0, 0.44);
 $borde_solid_transp: 1px solid transparent;
@@ -22,7 +23,8 @@ $fondos: (
     body: $bg_body,
     acord: $bg_acord,
     form: $bg_form,
-    prod: $bg_prod
+    encab: $bg_encab,
+    cuerp: $bg_cuerp
 );
 
 $padding: (

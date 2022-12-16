@@ -1,9 +1,9 @@
     .accordion-item {
-        background-color: $bg_body;
+        background-color: map-get($map: $fondos, $key: cuerp);
         .accordion-button:not(.collapsed) {
             color: black;
             font-weight: 500;
-            background-color: map-get($map: $fondos, $key: acord);
+            background-color: map-get($map: $fondos, $key: encab);
             box-shadow: 1px 1px 3px $bg_acord;
         }
     }

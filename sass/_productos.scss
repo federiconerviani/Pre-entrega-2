@@ -1,3 +1,7 @@
-.fondo_form {
-    background-color: map-get($fondos, prod);
+.fondo_form1 {
+    background-color: map-get($fondos, encab);
             }
+
+.fondo_form2 {
+    background-color: map-get($fondos, cuerp);
+}

@@ -1,5 +1,10 @@
 .bgBody{
-    background-color: map-get($map: $fondos, $key: body);
+    background-image: url(../assests/imagenes/fondo_hongos.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    background-blend-mode: overlay;
+    background-color: rgba(255, 255, 255, 0.664);
     .h1 {
         @include titulos;
     }

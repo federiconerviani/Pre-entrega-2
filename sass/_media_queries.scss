@@ -1,14 +1,29 @@
 @media (max-width: 576px) {
-    .just-der-sm {
-        text-align: right;
+    .just {
+        text-align: center;
     }
     .textoInicio {
         max-width: 90%;
     }
     .imgInicio {
-        max-width: 90%;
+        width: 90%;
     }
     .ftr-sz-sm {
         font-size: x-small;
+    }
+}
+
+@media (max-width: 767px) {
+    .just {
+        text-align: center;
+    }
+    .img_prod {
+        width: 50%;
+    }
+}
+
+@media (min-width: 767px) {
+    .img_prod {
+        width: 70%;
     }
 }

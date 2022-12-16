@@ -16,7 +16,12 @@
   animation-iteration-count: 1; }
 
 .bgBody {
-  background-color: rgba(148, 18, 6, 0.189); }
+  background-image: url(../assests/imagenes/fondo_hongos.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  background-blend-mode: overlay;
+  background-color: rgba(255, 255, 255, 0.664); }
   .bgBody .h1 {
     font-size: 3rem;
     font-family: "Ms Madi";
@@ -27,11 +32,11 @@
     padding-top: 2rem; }
 
 .accordion-item {
-  background-color: rgba(148, 18, 6, 0.189); }
+  background-color: rgba(235, 150, 142, 0.662); }
   .accordion-item .accordion-button:not(.collapsed) {
     color: black;
     font-weight: 500;
-    background-color: rgba(148, 18, 6, 0.374);
+    background-color: rgba(169, 46, 35, 0.751);
     box-shadow: 1px 1px 3px rgba(148, 18, 6, 0.374); }
 
 .body {
@@ -53,17 +58,27 @@
     opacity: 1; } }
 
 @media (max-width: 576px) {
-  .just-der-sm {
-    text-align: right; }
+  .just {
+    text-align: center; }
   .textoInicio {
     max-width: 90%; }
   .imgInicio {
-    max-width: 90%; }
+    width: 90%; }
   .ftr-sz-sm {
     font-size: x-small; } }
 
+@media (max-width: 767px) {
+  .just {
+    text-align: center; }
+  .img_prod {
+    width: 50%; } }
+
+@media (min-width: 767px) {
+  .img_prod {
+    width: 70%; } }
+
 .bgNavegador {
-  background-color: rgba(148, 18, 6, 0.962); }
+  background-color: #ac2e22; }
   .bgNavegador .hyp-nav {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-size: 1.25rem; }
@@ -112,5 +127,12 @@
     color: black;
     font-weight: 1000; }
 
-.fondo_form {
-  background-color: rgba(148, 18, 6, 0.227); }
+.error {
+  display: flex;
+  justify-content: center; }
+
+.fondo_form1 {
+  background-color: rgba(169, 46, 35, 0.751); }
+
+.fondo_form2 {
+  background-color: rgba(235, 150, 142, 0.662); }
