@@ -12,3 +12,24 @@
      padding-top: map-get($map: $padding, $key: cont_main);   
     }
 }
+
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    left: 0;
+    top: 50vh;
+    width: 2.5rem;
+    height: 8rem;
+    background-color: #333333;
+    border: solid 1px #666666;
+    box-shadow: 2px 2px 10px #999999;
+    .social_item {
+        padding: 4px;
+    }
+    a {
+        text-decoration: none;
+    }
+}
