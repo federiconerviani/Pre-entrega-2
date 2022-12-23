@@ -1,6 +1,7 @@
 
 .bgNavegador{
     background-color: $bg_nav;
+    z-index: 1;
     .hyp-nav{
         font-family: $fuente_navegador;
         font-size: $fuente_nav_size;

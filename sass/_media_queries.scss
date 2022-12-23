@@ -20,17 +20,16 @@
     .img_prod {
         width: 50%;
     }
+    .redesDesk {
+        display: none;
+    }
 }
 
 @media (min-width: 767px) {
     .img_prod {
         width: 70%;
     }
-}
-
-@media (max-width: 991px) {
-    .redes {
+    .redesMobile {
         display: none;
     }
-
 }
