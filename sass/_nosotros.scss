@@ -1,4 +1,11 @@
 .tarjetas {
     @include centrar;
     padding-top: 3rem;
+    .card-body {
+        font-size: 1.2rem;
+        background-color: map-get($map: $fondos, $key: cuerp);
+        .card-title {
+            @include fuente_card_title;
+        }
+    }
 }

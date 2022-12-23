@@ -72,7 +72,7 @@
     width: 2.5rem; }
 
 .accordion-item {
-  background-color: rgba(235, 150, 142, 0.662); }
+  background-color: rgba(214, 141, 134, 0.452); }
   .accordion-item .accordion-button {
     font-size: 1.75rem; }
   .accordion-item .accordion-button:not(.collapsed) {
@@ -157,6 +157,12 @@
   margin-left: auto;
   text-align: center;
   padding-top: 3rem; }
+  .tarjetas .card-body {
+    font-size: 1.2rem;
+    background-color: rgba(214, 141, 134, 0.452); }
+    .tarjetas .card-body .card-title {
+      font-size: 1.5rem;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
 
 .boton_form {
   display: flex;
@@ -193,4 +199,4 @@
   background-color: rgba(169, 46, 35, 0.751); }
 
 .fondo_form2 {
-  background-color: rgba(235, 150, 142, 0.662); }
+  background-color: rgba(214, 141, 134, 0.452); }
