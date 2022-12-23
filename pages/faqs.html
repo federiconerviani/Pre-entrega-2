@@ -3,15 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Preguntas frecuentes, dudas, y respuestas acerca del consumo de hongos y sus extractos">
+    <meta name="keywords" content="extractos, extract, hongos, fungi, mushrooms, faqs, preguntas, respuestas, dosis">
+    <title>Preguntas frecuentes</title>
+    <link rel="icon" type="image/x-icon" href="../assests/imagenes/favicon.ico">
+
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilos.css">
-    <title>Valhalla Elixirs</title>
   </head>
-  <body class="bgBody">
+
+  <body class="bgBody body">
     
-    <header>
+    <header class="header">
       <!--BARRA DE NAVEGACIÓN-->
       <nav class="navbar navbar-expand-lg navbar-light bgNavegador">
         <div class="container-fluid">
@@ -28,21 +33,22 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav justify-content-around w-100">
-              <a class="nav-link" href="../index.html">Inicio</a>
-              <a class="nav-link" href="./nosotros.html">Nosotros</a>
-              <a class="nav-link" href="./info.html">Info</a>
-              <a class="nav-link" href="./productos.html">Productos</a>
-              <a class="nav-link active" aria-current="page" href="#">FAQs</a>
-              <a class="nav-link" href="./contacto.html">Contacto</a>
+              <a class="nav-link hyp-nav" href="../index.html">Inicio</a>
+              <a class="nav-link hyp-nav" href="./nosotros.html">Nosotros</a>
+              <a class="nav-link hyp-nav" href="./info.html">Info</a>
+              <a class="nav-link hyp-nav" href="./productos.html">Productos</a>
+              <a class="nav-link active hyp-nav" aria-current="page" href="#">FAQs</a>
+              <a class="nav-link hyp-nav" href="./contacto.html">Contacto</a>
             </div>
           </div>
         </div>
       </nav>
     </header>
-    <main>
 
-      <h1>FAQs</h1>
-      <div class="container w-80">
+    <!--MAIN-->
+    <main class="main">
+      <h1 class="h1">FAQs</h1>
+      <div class="container w-80 contenido">
         <div class="accordion" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
@@ -60,33 +66,81 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingTwo">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Accordion Item #2
+              Política de envíos
             </button>
           </h2>
           <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              Hacemos envíos a todo el país. Consultá antes por precios y tiempos según tu localidad.
             </div>
           </div>
         </div>
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingThree">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            Accordion Item #3
+            ¿Tienen local a la calle?
           </button>
         </h2>
         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            Por el momento, nos encontrarás únicamente en la web.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            No siento nada. ¿Está haciendo efecto?
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Es importante recordar que los hongos medicinales son adaptógenos, y por lo tanto los resultados se notarán luego de períodos largos, a partir de un mes de su consumo.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            ¿Dónde se cultivan los hongos de Valhalla Elixirs?
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Tanto el cultivo de los hongos como el proceso de extracción se realizan en la provincia de Buenos Aires, Argentina.
           </div>
         </div>
       </div>
     </div>
+    <!--RRSS MOBILE-->
+    <div class="redesMobile">
+      <div class="social_item">
+        <a target="_blank" href="https://www.instagram.com"><img src="../assests/imagenes/instagram.svg" alt="Instagram"></a>
+      </div>
+      <div class="social_item">
+        <a target="_blank" href="https://www.twitter.com"><img src="../assests/imagenes/twitter.svg" alt="Twitter"></a>
+      </div>
+      <div class="social_item">
+        <a target="_blank" href="https://www.facebook.com"><img src="../assests/imagenes/facebook.svg" alt="Facebook"></a>
+      </div>
+    </div>
   </div>
     </main>
-  
-  <footer>
-    <div class="ftr-sz-sm">
+<!--RRSS DESKTOP-->
+<div class="redesDesk">
+  <div class="social_item">
+    <a target="_blank" href="https://www.instagram.com"><img src="../assests/imagenes/instagram.svg" alt="Instagram"></a>
+  </div>
+  <div class="social_item">
+    <a target="_blank" href="https://www.twitter.com"><img src="../assests/imagenes/twitter.svg" alt="Twitter"></a>
+  </div>
+  <div class="social_item">
+    <a target="_blank" href="https://www.facebook.com"><img src="../assests/imagenes/facebook.svg" alt="Facebook"></a>
+  </div>
+</div>
+  <!--Footer-->
+  <footer class="footer">
+    <div>
       <p>Todos los derechos reservados</p>
     </div>
   </footer>

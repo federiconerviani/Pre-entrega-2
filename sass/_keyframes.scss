@@ -1,0 +1,27 @@
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+        transform: scale(20);
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes jump {
+    0% {
+       
+    }
+    25% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

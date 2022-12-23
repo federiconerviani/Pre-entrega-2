@@ -1,0 +1,28 @@
+.boton_form {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 0.7rem;
+    .enviar {
+        @include boton;
+    }
+}
+
+.contacto {
+    .form_contacto {
+        background-color: $bg_form;
+        border-radius: 0.5rem;
+        .correo {
+            padding-top: 0.8rem;
+        }
+        .form-label {
+            font-family: $fuente_form;
+            color: black;
+            font-weight: 1000;
+        }
+    }
+}
+
+.error {
+    display: flex;
+    justify-content: center;
+}

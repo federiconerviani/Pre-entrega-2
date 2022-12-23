@@ -1,0 +1,32 @@
+@mixin fuente_nav ($size:$funte_nav_size) {
+    font-size: $size;
+    font-family: $fuente_navegador;
+}
+
+@mixin titulos {
+    font-size: $fuente_h1_size;
+    font-family: $fuente_h1;
+    font-style: $fuente_h1_style;
+    font-weight: 600;
+    margin-left: 2rem;
+}
+
+@mixin boton {
+    display: inline-block;
+    padding: $padding_boton;
+    background-color: black;
+    border-radius: 0.25rem;
+    justify-content: center;
+    margin: 4px;
+    text-align: center;
+    border: $borde_solid_transp;
+    vertical-align: middle;
+    font-weight: 500;
+    color: white;
+}
+
+@mixin centrar {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}

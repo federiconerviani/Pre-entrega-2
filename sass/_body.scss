@@ -1,0 +1,53 @@
+.bgBody{
+    position: relative;
+    min-height: 100vh;
+    background-image: url(../assests/imagenes/fondo_hongos.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-color: rgba(255, 255, 255, 0.664);
+    .h1 {
+        @include titulos;
+    }
+    .contenido {
+        font-size: 1.45rem;
+        padding-bottom: 2.5rem;
+        padding-top: map-get($map: $padding, $key: cont_main_top);   
+    }
+}
+
+.redesDesk {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 50vh;
+    width: 2.5rem;
+    height: 8rem;
+    transform: translateY(-4rem);
+    background-color: map-get($map: $fondos, $key: redes);
+    border: solid 1px #666666;
+    box-shadow: 2px 2px 10px #999999;
+    .social_item {
+        flex: 100%;
+        padding: 4px;
+    }
+    a {
+        text-decoration: none;
+    }
+}
+
+.redesMobile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 2rem;
+    width:100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    .social_item {
+        width: 2.5rem;
+    }
+}
