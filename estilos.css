@@ -1,0 +1,202 @@
+/*'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif*/
+/*MAPAS*/
+.h1Inicio {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  animation-iteration-count: 1; }
+
+.imgInicio {
+  animation-name: aparecer;
+  animation-duration: 3s;
+  animation-iteration-count: 1; }
+
+.textoInicio {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  animation-iteration-count: 1; }
+
+.social_item:hover {
+  animation-name: jump;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out; }
+
+.bgBody {
+  position: relative;
+  min-height: 100vh;
+  background-image: url(../assests/imagenes/fondo_hongos.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  background-color: rgba(255, 255, 255, 0.664); }
+  .bgBody .h1 {
+    font-size: 3rem;
+    font-family: "Ms Madi";
+    font-style: italic;
+    font-weight: 600;
+    margin-left: 2rem; }
+  .bgBody .contenido {
+    font-size: 1.45rem;
+    padding-bottom: 2.5rem;
+    padding-top: 2rem; }
+
+.redesDesk {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  top: 50vh;
+  width: 2.5rem;
+  height: 8rem;
+  transform: translateY(-4rem);
+  background-color: #333333f1;
+  border: solid 1px #666666;
+  box-shadow: 2px 2px 10px #999999; }
+  .redesDesk .social_item {
+    flex: 100%;
+    padding: 4px; }
+  .redesDesk a {
+    text-decoration: none; }
+
+.redesMobile {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 2rem;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+  .redesMobile .social_item {
+    width: 2.5rem; }
+
+.accordion-item {
+  background-color: rgba(214, 141, 134, 0.452); }
+  .accordion-item .accordion-button {
+    font-size: 1.75rem; }
+  .accordion-item .accordion-button:not(.collapsed) {
+    color: black;
+    font-weight: 500;
+    background-color: rgba(169, 46, 35, 0.751);
+    box-shadow: 1px 1px 3px rgba(148, 18, 6, 0.374); }
+
+.body .footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.384); }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+    transform: scale(20); }
+  100% {
+    opacity: 1; } }
+
+@keyframes jump {
+  0% { }
+  25% {
+    transform: translateY(-10px); }
+  50% {
+    transform: translateY(0); }
+  75% {
+    transform: translateY(-5px); }
+  100% {
+    transform: translateY(0); } }
+
+@media (max-width: 576px) {
+  .just {
+    text-align: center; }
+  .textoInicio {
+    max-width: 90%; }
+  .imgInicio {
+    width: 90%; }
+  .ftr-sz-sm {
+    font-size: x-small; } }
+
+@media (max-width: 767px) {
+  .just {
+    text-align: center; }
+  .img_prod {
+    width: 50%; }
+  .redesDesk {
+    display: none; } }
+
+@media (min-width: 767px) {
+  .img_prod {
+    width: 70%; }
+  .redesMobile {
+    display: none; } }
+
+.bgNavegador {
+  background-color: #ac2e22;
+  z-index: 1; }
+  .bgNavegador .hyp-nav {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 1.25rem; }
+    .bgNavegador .hyp-nav:hover:not(.active):not(.navbar-brand) {
+      text-shadow: 0.8px 0.8px 0.8px; }
+
+.fuenteLogo {
+  font-size: 1.5rem;
+  font-family: "Ms Madi";
+  font-style: italic; }
+
+.fuenteLogoInicio {
+  animation-name: aparecer;
+  animation-duration: 5s;
+  animation-iteration-count: 1; }
+
+.tarjetas {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  padding-top: 3rem; }
+  .tarjetas .card-body {
+    font-size: 1.2rem;
+    background-color: rgba(214, 141, 134, 0.452); }
+    .tarjetas .card-body .card-title {
+      font-size: 1.5rem;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+.boton_form {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 0.7rem; }
+  .boton_form .enviar {
+    display: inline-block;
+    padding: 0.375rem 1rem;
+    background-color: black;
+    border-radius: 0.25rem;
+    justify-content: center;
+    margin: 4px;
+    text-align: center;
+    border: 1px solid transparent;
+    vertical-align: middle;
+    font-weight: 500;
+    color: white; }
+
+.contacto .form_contacto {
+  background-color: rgba(0, 0, 0, 0.44);
+  border-radius: 0.5rem; }
+  .contacto .form_contacto .correo {
+    padding-top: 0.8rem; }
+  .contacto .form_contacto .form-label {
+    font-family: "Courier New", Courier, monospace;
+    color: black;
+    font-weight: 1000; }
+
+.error {
+  display: flex;
+  justify-content: center; }
+
+.fondo_form1 {
+  background-color: rgba(169, 46, 35, 0.751); }
+
+.fondo_form2 {
+  background-color: rgba(214, 141, 134, 0.452); }
